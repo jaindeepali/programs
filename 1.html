@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script type='text/javascript' src='https://cdn.sdslabs.co.in/cdnjs/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.sdslabs.co.in/css/css/bootstrap/1.4.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="/favicon.ico" />
+    <title>FAQ - Privacy & Security - SDSLabs</title>
+    <meta name="author" content="Team SDSLabs">
+    <link rel="stylesheet" href="/home/topbarwide.css">
+    <script src="/api/public/api.js"></script>
+    <script>
+      $(document).ready(function(){
+        topbar.showTopbar();
+        topbar.setCurrent('Privacy & Security');
+        $('.current-year').text(new Date().getFullYear());
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="page-header">
+          <h1>Privacy & Security</h1>
+          <h2 class="span">FAQ</h2><br>
+        </div>
+          <div class="span">Do you want to report a security vulnerabilty? Click <a href="disclosure.html">here</a>.</div>
+          <p class="heading">
+            <h3>From where does SDSLabs get the information about me?</h3>
+            <p>
+              All the data that we have is either provided to use by the users themselves or is publicly available. We use courses data from 192.168.121.2/studentlist to help users during their registration. Email address and phone numbers are provided by the users themselves. We <span class="stress">do not</span> have any other personal information apart from the ones listed above.
+              <span class="stress">The instiute does not exclusively provide us with any data.</span>
+            </p>
+            <h3>Who has access to this information?</h3>
+            <p>
+              User's data stored in our servers is accessibile to only a few members of our <a href="https://sdslabs.co.in/team">team.</a>
+            </p>
+            <h3>But you do know the password I used to register, right?</h3>
+            <p>
+              Passwords are <span class="stress">not</span> stored in plain text. They are encrypted in a non-reversible manner. Hence SDSLabs has no idea whatsover about the user's password.
+            </p>
+            <h3>Are you monitoring what I share or download from DC++?</h3>
+            <p>
+              <span class="stress">No</span>, we don't. DC++ is runs in an open mode, which means that it does not need any form of registration. We personally log very little data (mostly chat) on the DC network. Since the actual downloads are P2P (Peer To Peer), it's very difficult to track them. SDSLabs <span class="stress">does not</span> track downloads.
+            </p>
+            <h3>If I connect SDSLabs chat to my Facebook chat, will you get my Facebook password?</h3>
+            <p>
+              No, you <span class="stress">do not</span> enter your Facebook password on SDSLabs' site, we redirect you to Facebook where you authenticate the SDSLabs app to access your chat session. Using that authentication, we can allow you to use chat from our site and nothing more. Also, we use <a href="http://en.wikipedia.org/wiki/HTTP_Secure" >HTTPS protocol</a> to secure all communications between end user and our servers.
+            </p>
+            <h3>I am still doubtful.</h3>
+            <p>
+              We want the users to know that whatever minimal amount of personal information they have shared with us is kept safe with utmost care and is used in a responsible manner. We have no interest in selling your personal data. If you still have any doubt regarding this you are welcome to <a href="mailto:contact@sdslabs.co.in"> contact</a> us via email or meet us personally and we will try our best to answer all your queries satisfactorily.
+            </p>
+            <div class="footer">
+              <ul class="footerlinks">
+                <li>&copy; SDSLabs <span class="current-year"></span></li>
+                <li class="active">FAQ</li>
+                <li><a href="/security/disclosure">Responsible Disclosure</a></li>
+                <li><a href="/security/tc">Terms & Conditions</a></li>
+              </ul>
+            </div>
+       </div>
+    </div> <!-- /container -->
+  <link type="text/css" href="https://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet"> 
+  <script type="text/javascript" src="https://sdslabs.co.in/comet/cometchatjs.php"></script>
+  </body>
+</html>
