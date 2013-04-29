@@ -4,20 +4,26 @@
 using namespace std;
 int main()
 {
-    int k;
-    double i,j,t;
-    long long int n,a,x,b,c,m;
-    scanf("%lld", &t);
+    int k,t;
+    double i;
+    long long int n,a,x,j,b,c,m;
+    scanf("%d", &t);
     while(t--)
     {
         scanf("%lld %d", &n,&k);
-        unsigned long long int s[k];
+        long long int s[k];
         a=k*k;
+        cout<<"a="<<a<<" ";
         b=k*(2*k+1);
+        cout<<"b="<<b<<" ";
         c=k*(k+1)-2*n;
+        cout<<"c="<<c<<" ";
         i=(-1*b+sqrt(b*b-4*a*c))/(2*a);
+        cout<<"i="<<i<<" ";
         x=floor(i);
+        cout<<"x="<<x<<" ";
         m=(k*(x+1)*(k*(x+1)+1))/2;
+        cout<<"m="<<m<<" ";
         x=x+1;
         m=n-m;
         for(j=0;j<k;j++)
